@@ -17,3 +17,7 @@ class EmptyStackError(Exception):
 class NoSuchElement(Exception):
     """ Raised when requesting an element that does not exist """
     pass
+
+class EmptyQueueError(Exception):
+    """ Raised when trying to access values from an empty queue """
+    pass
